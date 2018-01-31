@@ -1,0 +1,26 @@
+#,Variable,Definition
+1,project,Full name of the GitHub repository
+2,language,Programming language used by the project
+3,pull_id,Pull request ID
+4,pull_number,Pull request number
+5,release_commits,Number of commits in a release that is associated with a specific pull request
+6,changed_files,The number of files linked to a pull request submission
+7,churn,The number of added lines plus the number of deleted lines to a pull request
+8,comments,The number of comments of a pull request
+9,comments_interval,"The sum of the time intervals (days) between comments divided by the total number
+of comments of a pull request"
+10,merge_workload,"The amount of PR that were created and still waiting to be merged by a core integrator
+at the moment at which a specific pull request is submitted"
+11,description_length,The number of characters in the body (description) of the PR
+12,resolver_experience," The number of previously released pull requests that were submitted by the resolver of a
+particular PR. We consider the author of the pull request to be its resolver"
+13,queue_rank,"The number that represents the moment when a pull request is merged compared to other
+merged PRs in the release cycle. For example, in a queue that contains 100 PRs, the first
+merged PR has position 1, while the last merged pull request has position 100"
+14,resolver_integration,"The average in days of the previously released PRs that were submitted by a particular
+Resolver"
+15,stacktrace_attached, We verify if the pull request report has an stack trace attached in its description
+16,activities,An activity is an entry in the pull request' history
+17,merge_time,Number of days between the submission and merge of a pull request
+18,delivery_delay,Number of days between the merge and the delivery of a pull request
+19,practice, We verify whether a project is using CI when a pull request is submitted

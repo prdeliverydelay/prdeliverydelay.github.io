@@ -1,0 +1,11 @@
+#,Variable,Definition
+1,project,Full name of the GitHub repository
+2,language,Programming language used by the project
+3,title,The release tag name
+4,startedAt,Start date of a release
+5,publishedAt,Publication  date of a release
+6,release_duration,The difference in days between the start and  publication of a release
+7,created_pull_requests,The number of submitted pull requests per release
+8,merged_pull_requests,The number of merged pull requests per release
+9,released_pull_requests,The number of delivered pull requests per release
+10,practice, We verify whether a project is using CI when a pull request is submitted
